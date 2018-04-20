@@ -1,6 +1,8 @@
 @heroku-cli/plugin-ps
 =====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/heroku/heroku-cli-plugin-ps.svg)](https://greenkeeper.io/)
+
 ps core plugin for Heroku CLI
 
 [![Version](https://img.shields.io/npm/v/@heroku-cli/plugin-ps.svg)](https://npmjs.org/package/@heroku-cli/plugin-ps)
