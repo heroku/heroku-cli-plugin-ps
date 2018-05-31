@@ -1,3 +1,11 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/heroku/heroku-cli-plugin-ps/compare/v1.0.2...v1.0.3) (2018-05-31)
+
+
+### Bug Fixes
+
+* move schema into dev ([c6d9c85](https://github.com/heroku/heroku-cli-plugin-ps/commit/c6d9c85))
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/heroku/heroku-cli-plugin-ps/compare/v1.0.1...v1.0.2) (2018-05-31)
 
