@@ -10,7 +10,7 @@
     "@oclif/command": "^1.4.30",
     "@oclif/config": "^1.6.21",
     "cli-ux": "^4.4.0",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "@fancy-test/nock": "^0.1.1",
