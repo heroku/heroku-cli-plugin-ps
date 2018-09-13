@@ -64,6 +64,15 @@
     debug "^3.1.0"
     semver "^5.5.0"
 
+"@oclif/command@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.5.0.tgz#d5276a19506349fff0254b0dd98e3b8a2bd971aa"
+  dependencies:
+    "@oclif/errors" "^1.1.2"
+    "@oclif/parser" "^3.6.0"
+    debug "^3.1.0"
+    semver "^5.5.0"
+
 "@oclif/config@^1.6.21":
   version "1.6.21"
   resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.21.tgz#44cb3136758562d5441885b63ef4791aeeae0c0f"
@@ -108,7 +117,15 @@
     "@oclif/linewrap" "^1.0.0"
     chalk "^2.4.1"
 
-"@oclif/plugin-help@^2.0.1", "@oclif/plugin-help@^2.0.3":
+"@oclif/parser@^3.6.0":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.6.1.tgz#dd0ad29d9178d75a2de30314874a6167675925ed"
+  dependencies:
+    "@oclif/linewrap" "^1.0.0"
+    chalk "^2.4.1"
+    tslib "^1.9.3"
+
+"@oclif/plugin-help@^2.0.1":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.0.3.tgz#f64bfc69ad28e34ec046f3da195e6da67298c9b7"
   dependencies:
@@ -119,6 +136,19 @@
     string-width "^2.1.1"
     widest-line "^2.0.0"
     wrap-ansi "^3.0.1"
+
+"@oclif/plugin-help@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.1.2.tgz#b6639e95157f563225a29b4329ce62e2e162afe9"
+  dependencies:
+    "@oclif/command" "^1.5.0"
+    chalk "^2.4.1"
+    indent-string "^3.2.0"
+    lodash.template "^4.4.0"
+    string-width "^2.1.1"
+    strip-ansi "^4.0.0"
+    widest-line "^2.0.0"
+    wrap-ansi "^4.0.0"
 
 "@oclif/screen@^1.0.2":
   version "1.0.2"
@@ -182,7 +212,7 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-ansi-styles@^3.2.1:
+ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
   dependencies:
@@ -1693,6 +1723,10 @@ tslib@^1.9.2:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.2.tgz#8be0cc9a1f6dc7727c38deb16c2ebd1a2892988e"
 
+tslib@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
+
 tslint-consistent-codestyle@^1.11.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslint-consistent-codestyle/-/tslint-consistent-codestyle-1.13.0.tgz#82abf230bf39e01159b4e9af721d489dd5ae0e6c"
@@ -1823,6 +1857,14 @@ wrap-ansi@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-3.0.1.tgz#288a04d87eda5c286e060dfe8f135ce8d007f8ba"
   dependencies:
+    string-width "^2.1.1"
+    strip-ansi "^4.0.0"
+
+wrap-ansi@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-4.0.0.tgz#b3570d7c70156159a2d42be5cc942e957f7b1131"
+  dependencies:
+    ansi-styles "^3.2.0"
     string-width "^2.1.1"
     strip-ansi "^4.0.0"
 
